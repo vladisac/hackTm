@@ -1,111 +1,180 @@
+
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<html>
+<head>
+   <title>HackTM</title>
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+   <link href="css/style.css" media="all" rel="stylesheet" />
+   <link href="css/stickyMenu.css" media="all" rel="stylesheet" />
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"  type="text/javascript" ></script>
+   <script src="scripts/app.js"></script>
+</head>
+<body>
 
-		<title>HackTM</title>
+<header>
+    <!--<div class="menu"></div>-->
 
-		<!-- Bootstrap core CSS -->
-		<link href="libs/bootstrap-3.1.1/css/bootstrap.min.css" rel="stylesheet">
-		<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+	<section id="logo">
+	<img src="assets/logo.png" />
+	<h4 id="logo-date">October 17 - 19</h4>
+</section>
 
-		<link href="css/main/main.css" rel="stylesheet">
-		<link href="css/main/sticky.css" rel="stylesheet">
+<section id="description">
+	<h2 class="faded">
+		Banat
+		<span>most `banatean`</span>
+		hackathon.
+	</h2>
+	<h2 class="primary">
+		Timisoara's
+		<span>most prestigious</span>
+		hackathon.
+	</h2>
+	<h2 class="faded">
+		Timisoara's
+		<span>most aesthetic</span>
+		hackathon.
+	</h2>
+</section>
 
-		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-		<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-		<![endif]-->
-	</head>
+<section class="signup">
+	<form accept-charset="UTF-8" action="/signups" class="new_signup" id="new_signup" method="post">
+        <div style="margin:0;padding:0;display:inline">
+            <input name="utf8" type="hidden" value="&#x2713;" />
+        </div>
+		<input id="signup_email" name="signup[email]" placeholder="What&#39;s your email?" type="text" />
+		<input data-disable-with="Hang tight hombre..." name="commit" type="submit" value="Count me in, eh." />
+    </form>
+</section>
 
-	<body>
+<a class="button" href="/info/mchacks-sponsorship.pdf">Sponsor Us</a>
 
-		<header>
-		</header>
+</header>
 
-		<div class="container">
-			<!--<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur metus nulla, gravida nec enim in, convallis gravida massa. Phasellus mauris eros, ullamcorper at elementum id, accumsan sit amet leo. Vestibulum sed nibh cursus, condimentum turpis eget, hendrerit mi. Aliquam vitae tellus arcu. Maecenas varius nec leo sed aliquam. Cras turpis sem, volutpat nec malesuada sed, mollis sit amet eros. Maecenas condimentum posuere lectus, efficitur ultrices enim scelerisque et.
-			</p>
+<section id="faq">
+	<section id="numbers">
+	<ul>
+		<li>
+			<span>500</span>
+			hackers
+		</li>
+		<li>
+			<span>TBA</span>
+			prizes
+		</li>
+		<li>
+			<span>5+</span>
+			meals
+		</li>
+		<li>
+			<span>30</span>
+			mentors
+		</li>
+		<li>
+			<span>48</span>
+			hours
+		</li>
+		<li>
+			<span>&infin;</span>
+			igloos
+		</li>
+		<li>
+			<span>&infin;</span>
+			swag
+		</li>
+	</ul>
+</section>
 
-			<br />
+<section id="qa">
+	<ul>
+		<li>
+			<h3>Who can attend?</h3>
+			<p>Freelancers, hackers, geeks, students, employees and talented individuals with interest in IT, from CoderDojo kids to senior engineers. Designers are also warmly welcome.</p>
+		</li>
 
-			<p>
-			Maecenas sed purus pulvinar, blandit lacus eget, iaculis purus. Aenean a est eget neque luctus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lectus dui, rhoncus eu ullamcorper non, consectetur id massa. In imperdiet nibh vitae nunc feugiat tempus. Donec tincidunt non sapien ut venenatis. Morbi malesuada pharetra tempor. Ut non lobortis urna. Vivamus vel cursus odio. Curabitur ac mauris arcu. Aliquam ultricies dapibus eleifend. Aliquam ut purus euismod, facilisis velit eget, vestibulum nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-			</p>
+    <li>
+      <h3>How can I register?</h3>
+      <p>Register here TBA link</p>
+    </li>
 
-			<div style="text-align:center;">
-				<img src="assets/home.jpg" style="max-width: 100%;" class="frame" alt="">
-			</div>
+    <li>
+        <h3>Am I guaranteed spot at HackTM if I register?</h3>
+        <p>There is limited space for HackTM, therefore we might have to limit entries. We'll confirm your spot at the hackathon no later TBA</p>
+    </li>
 
-			<div class="row home-info">
-				<div class="col-sm-4">
-					<img src="assets/photo1.jpg" class="frame" alt=""><br />
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam facilisis neque maximus arcu mattis porttitor. Etiam ullamcorper felis ut dignissim mollis. Sed auctor in nulla at mollis. Duis commodo feugiat molestie. Nam ante mauris, euismod egestas vestibulum posuere, venenatis et augue. Vivamus pellentesque dictum libero, auctor viverra est placerat sit amet.
-				</div>
+    <li>
+        <h3>What if I don't have a team to sign up with?</h3>
+        <p>If you don’t have a team, we can help you join one the day of the event (or not?)</p>
+    </li>
 
-				<div class="col-sm-4">
-					<img src="assets/photo2.jpg" class="frame" alt=""><br />
-Vivamus sed elementum ipsum. Curabitur sollicitudin vulputate ex, a interdum nisl dapibus varius. Aliquam dictum, neque vitae eleifend venenatis, justo urna porttitor dui, porta condimentum velit lectus sit amet ipsum. Nam tristique ultrices libero in ultrices. Suspendisse quis magna vel risus vulputate iaculis. Quisque sapien quam, consequat quis accumsan elementum, consequat a ante. Aenean luctus, sem nec lobortis auctor, massa nunc laoreet purus, vitae euismod dolor mi a metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum leo ante, ut lacinia mi faucibus quis. Nulla ut odio ac urna vehicula rutrum at a sapien.
-				</div>
+		<li>
+			<h3>What should I bring?</h3>
+			<p>Laptop & charger.</p>
+		</li>
 
-				<div class="col-sm-4">
-					<img src="assets/photo3.jpg" class="frame" alt=""><br />
-Donec id lectus sed nibh aliquam facilisis. Quisque porttitor sodales tristique. Ut efficitur sem ac leo sollicitudin pulvinar. Praesent consectetur accumsan ex, sed porttitor tortor pretium eget. Suspendisse sagittis convallis felis, id euismod mi mollis nec. Cras sed felis suscipit, dapibus ligula vel, dapibus dui. Duis tincidunt nunc sit amet ex consectetur gravida. Donec quis consectetur mauris, vitae sagittis dui. Vivamus fringilla est est, quis tempor felis dapibus in. Suspendisse nibh sem, semper non leo sit amet, laoreet porta odio.
-				</div>
-			</div>-->
+		<li>
+			<h3>Is there any food provided?</h3>
+			<p>Yes</p>
+		</li>
 
-			<div class="panel panel-default" style="border:1px solid #999999;">
-				<div class="panel-heading" style="background-color:#777777; border-bottom: 1px solid #999999; color: #FFFFFF;">
-					<h2>Pana la eveniment mai sunt</h2>
-				</div>
+		<li>
+			<h3>Who can I contact?</h3>
+			<p><a href="mailto:contact@hacktm.ro">contact@hacktm.ro</a></p>
+		</li>
 
-				<div class="panel-body" style="color:#000000; background-color:#333333; color: #FFFFFF;">
-					<h1 id="countdown" style="text-align:center;"></h1>
-				</div>
-			</div>
-		</div>
+		<li>
+			<h3>What programming languge can I use?</h3>
+			<p>Whatever programming language you want</p>
+		</li>
 
-		<footer>
-		</footer>
+		<li>
+			<h3>Can I develop whatever ideea I want?</h3>
+			<p>Yes</p>
+		</li>
 
-		<!-- modules -->
-		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
-		<script src="libs/jQuery.1.11.0/jquery-1.11.0.min.js"></script>
-		<script src="libs/bootstrap-3.1.1/js/bootstrap.min.js"></script>
-		<script src="libs/handlebars-1.3.0/handlebars.js"></script>
-		<script src="libs/jQuery.countdown.2.0.4/jquery.countdown.min.js"></script>
-		<!--<script src="libs/jQuery.jCookie.1.4.1/jquery.cookie.js"></script>
-		<script src="libs/jQuery.PopupOverlay.1.6.0/jquery.popupoverlay.js"></script>-->
+		<li>
+			<h3>What happens if I get stuck?</h3>
+			<p>We have mentors at your disposal who can help you go further.</p>
+		</li>
 
-		<!-- consts -->
-		<script src="js/config/config.js"></script>
+	</ul>
+</section>
 
-		<!-- helpers -->
+</section>
 
-		<!-- templates: components -->
-		<script src="js/template/components/header.js"></script>
-		<script src="js/template/components/menu.js"></script>
-		<script src="js/template/components/footer.js"></script>
+<section id="sponsor-heading">
+	<div class="button">
+	<a href="#footer">
+		Register Now
+	</a>
+</div>
+<h1>Sponsored in the past by beautiful people from</h1>
+</section>
 
-		<!-- templates: popups -->
+<section id="sponsor-logos" class="sponsors">
+<div class="giga">
+    <a href="http://google.com"><img src="assets/sponsors/google.png" /></a>
+    <a href="http://startuphub.ro"><img src="assets/sponsors/startup_hub.jpg" /></a>
+</div>
+<div class="mega" >
+</div>
+<div class="kilo">
+</div>
+<div class="byte">
+</div>
+</section>
 
-		<!-- templates: item renderers -->
+<footer id="footer">
+	<h3>October 17 - 19, Timisoara, CRAFT</h3>
 
-		<!-- templates: partials -->
+<section class="signup">
+	<form accept-charset="UTF-8" action="" class="new_signup" id="new_signup" method="post" disable>
+		<input id="signup_email" name="signup[email]" placeholder="What&#39;s your email?" type="text" />
+		<input data-disable-with="Hang tight hombre..." name="commit" type="submit" value="Count me in, eh." />
+</form></section>
 
-		<!-- custom libraries -->
+</footer>
 
-		<!-- section script -->
-		<script src="js/section/main.js"></script>
-		<script src="js/section/index.js"></script>
-
-	</body>
+   <script src="scripts/stickyMenu.js"></script>
+</body>
 </html>
