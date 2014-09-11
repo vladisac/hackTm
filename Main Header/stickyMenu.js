@@ -6,8 +6,7 @@ scrollIntervalID = setInterval(stickIt, 10);
 
 function stickIt() 
 {
-  var orgElementPos = $('.original').offset();
-  orgElementPos = $("#logo-date").offset();
+  var  orgElementPos = $("#logo-date").offset();
   orgElementTop = orgElementPos.top;               
 
   if ($(window).scrollTop() >= (orgElementTop)) 
