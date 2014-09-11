@@ -2826,7 +2826,7 @@ table {
 }
 body {
     background: white;
-    font-family: "soleil", "Arial", sans
+    font-family: 'Open Sans', sans-serif;
 }
 header,
 footer {
