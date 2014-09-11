@@ -3673,7 +3673,7 @@ function() {
 }.call(this),
 function() {
     var e, t, n, r = [].slice;
-    t = ["most aesthetic", "most prestigious", "most Canadian", "official student", "party-animal", "most badass", "way cooler", "better tasting", "really hip", "best dressed", "zestiest", "overly scientific", "beginner friendly", "1337 hax0r", "most dope"], $(function() {
+    t = ["most aesthetic", "most prestigious", "most Banatean", "party-animal", "most badass", "way cooler", "better tasting", "really hip", "best dressed", "zestiest", "overly scientific", "beginner friendly", "1337 hax0r", "most dope"], $(function() {
         return $(window).bind("scroll resize", e(n, 10)), update()
     }), n = function() {
         var e, t, n, r;

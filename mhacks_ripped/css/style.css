@@ -2848,11 +2848,11 @@ footer h2 {
 }
 header h2.faded,
 footer h2.faded {
-    color: rgba(0, 0, 0, 0)
+    color: red
 }
 header h2.faded span,
 footer h2.faded span {
-    color: rgba(0, 0, 0, 0.35)
+    color: red
 }
 header h2.primary span,
 footer h2.primary span {
@@ -2881,7 +2881,7 @@ footer h3 {
     padding-top: 30px
 }
 header {
-    background: #ff6b6b url("/assets/gerts-2600-e276f9cf3dc4e345793d8693ab9e2e9a.png") no-repeat center center
+    background: #000 no-repeat center center
 }
 header section#logo,
 header section#description,
@@ -2894,7 +2894,8 @@ header section#logo {
 }
 header section#logo h4 {
     font-weight: 200;
-    font-size: 14px
+    font-size: 25px;
+    margin-top: 15px;
 }
 header section#description {
     -webkit-transform: translateZ(0);
@@ -2907,10 +2908,10 @@ header section#description h2 {
     font-weight: 200
 }
 header section#description h2.faded {
-    color: rgba(0, 0, 0, 0)
+    color: rgba(255, 255, 255, 0)
 }
 header section#description h2.faded span {
-    color: rgba(0, 0, 0, 0.35)
+    color: rgba(255, 255, 255, 0.35)
 }
 header section#description h2.primary span {
     font-weight: bold
@@ -2953,7 +2954,7 @@ section.signup form input:focus {
 }
 section.signup form input[type=text] {
     display: block;
-    background: #ff6b6b;
+    background: #3196FF;
     border: none;
     outline: none;
     padding: 12px 0;
@@ -3105,8 +3106,8 @@ section#sponsor-heading div.button {
     margin-bottom: -20px
 }
 section#sponsor-heading div.button a {
-    border: 2px solid #f96060;
-    background: rgba(255, 107, 107, 0.95);
+    border: 2px solid;
+    background: #3196FF;
     font-weight: 14px;
     text-transform: uppercase;
     font-weight: 500;
@@ -3126,7 +3127,7 @@ section#sponsor-heading div.button a:hover {
     cursor: pointer
 }
 footer {
-    background: #ff6b6b url("/assets/leacock-2600-e771af13ff38082ec8013a89e6bfb55f.png") no-repeat center center
+    background: #000 no-repeat center center
 }
 footer h2,
 footer section.signup {
