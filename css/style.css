@@ -3238,3 +3238,13 @@ section#sponsor-logos {
 .sponsors .byte a {
     width: 25%
 }
+
+header {
+    background-image: url(../assets/header.jpg) !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+#logo img {
+    max-width: 100%;
+}
