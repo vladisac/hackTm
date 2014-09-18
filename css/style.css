@@ -3284,3 +3284,39 @@ header {
 #logo img {
     max-width: 100%;
 }
+
+#wiki{
+    position:absolute;
+    right:10px;
+    top:10px;
+    width:450px;
+    background-color:#303030;
+    border-radius:5px;
+}
+
+#wikiLogo
+{
+    float:left;
+    margin-left:10px;
+}
+
+#wikiPreview
+{
+    margin-top:10px;
+    padding: 10px;
+    font-size:20px;
+}
+
+#readMoreWiki{
+    position: absolute;
+    right:10px;
+    bottom: 5px;
+    text-decoration:none;
+    color: white !important;
+}
+
+@media screen and (max-width: 800px) {
+    #wiki{
+        display : none;
+    }
+}
