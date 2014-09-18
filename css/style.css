@@ -3225,18 +3225,54 @@ section#sponsor-logos {
     width: 100%
 }
 .sponsors .giga a {
-    height: 10rem;
+    height: 15rem;
     width: 100%
 }
 .sponsors .mega a {
-    height: 5rem;
+    height: 10rem;
     width: 50%
 }
 .sponsors .kilo a {
+    height: 7rem;
     width: 33%
 }
 .sponsors .byte a {
     width: 25%
+}
+
+section#organizers-logos {
+    margin: 40px 20%;
+    padding: 0;
+    max-width: 60%
+}
+@media screen and (max-width: 800px) {
+    section#organizers-logos {
+        margin: 0 10%;
+        max-width: 80%
+    }
+}
+.organizers a {
+    height: 8rem;
+    float: left;
+    display: inline-block;
+    padding: 1rem 0
+}
+.organizers img {
+    max-height: 100%;
+    max-width: 95%;
+    -webkit-filter: grayscale(100%) brightness(1.5);
+    display: block;
+    margin: auto
+}
+.organizers img:hover {
+    -webkit-filter: grayscale(0)
+}
+.organizers .org-logos {
+    display: inline-block;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
 }
 
 header {
