@@ -1,0 +1,54 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.wrapper{
+  width: 325px;
+  height: 50px;
+  position: absolute;
+  padding-bottom: 7px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.icon{
+  display: inline-block;
+  position: relative;
+  color: #bdbdbd;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2em;
+  background-color: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition:background-color 250ms ease 0s;
+  transition:background-color 250ms ease 0s;
+  margin-left: 5%;
+}
+
+.zocial-facebook{margin-left: -8px}
+
+.icon.facebook:hover{background-color: #4986c7;}
+.twitter:hover{background-color: #4cb6e8;}
+.linkedin:hover{background-color: #29a0cc;}
+.youtube:hover{background-color: #a32929;}
+.flickr:hover{background-color: #c257ad;}
+.email:hover{background-color: #d5b120;}
+
+a{
+  text-decoration: none;
+}
+
+.icon:hover{
+  color: #fff;
+}
+
+.icon:active{
+  top: 3px;
+}
