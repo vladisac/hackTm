@@ -3354,3 +3354,9 @@ header {
 .active {
     width: 30%;
 }
+.block {
+    position: relative;
+    margin-left: 20%;
+    width: 800px;
+
+}
