@@ -1,0 +1,30 @@
+@-webkit-keyframes rotateAnim {
+	from { -webkit-transform: rotate(0deg); }
+	to { -webkit-transform: rotate(180deg); }
+}
+
+@-moz-keyframes rotateAnim {
+	from { -moz-transform: rotate(0deg); }
+	to { -moz-transform: rotate(180deg); }
+}
+
+@-o-keyframes rotateAnim {
+	from { -o-transform: rotate(0deg); }
+	to { -o-transform: rotate(180deg); }
+}
+
+
+@-webkit-keyframes rotateReverse {
+	from { -webkit-transform: rotate(180deg); }
+	to { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes rotateReverse {
+	from { -moz-transform: rotate(180deg); }
+	to { -moz-transform: rotate(0deg); }
+}
+
+@-o-keyframes rotateReverse {
+	from { -o-transform: rotate(180deg); }
+	to { -o-transform: rotate(0deg); }
+}

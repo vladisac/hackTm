@@ -1,0 +1,60 @@
+.logo-rotate {
+	-webkit-animation: rotateAnim 3s infinite ease-in-out;
+	-moz-animation: rotateAnim 3s infinite ease-in-out;
+	-o-animation: rotateAnim 3s infinite ease-in-out;
+}
+
+.logo-reverse {
+	-webkit-animation: rotateReverse 3s infinite ease-in-out;
+	-moz-animation: rotateReverse 3s infinite ease-in-out;
+	-o-animation: rotateReverse 3s infinite ease-in-out;
+}
+
+.alternate {
+	-webkit-animation-direction: alternate;
+	-moz-animation-direction: alternate;
+	-o-animation-direction: alternate;
+}
+
+.logo-inner {
+	background-image: url(../assets/logo/logo-inner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo-outer {
+	background-image: url(../assets/logo/logo-outer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logo-container {
+	background-image: url(../assets/logo/logo-text.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 213px;
+	width: 500px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.logo-circle {
+	width: 224px;
+	height: 213px;
+	position: absolute;
+	right: 0;
+}
+
+/*303 x 129*/
+
+@media(max-width: 800px) {
+	.logo-container {
+		width: 303px;
+		height: 129px;
+	}
+
+	.logo-circle {
+		width: 136px;
+		height: 129px;
+	}
+}
