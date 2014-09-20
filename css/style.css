@@ -3379,3 +3379,7 @@ header {
 .col-md-4 {
     height: 100%;
 }
+.jumbotron {
+    background-color: #FFF;
+    padding-top: 20px;
+}
