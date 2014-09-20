@@ -3372,3 +3372,10 @@ header {
     font-size: 18px;
     font-weight: bold;
 }
+
+.row {
+    height: 200px;
+}
+.col-md-4 {
+    height: 100%;
+}
