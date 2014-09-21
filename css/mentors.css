@@ -8,7 +8,7 @@
   position: relative;
   float: left;
   margin-bottom: 5px;
-  width: 80%;
+  width: 190px;
   overflow: hidden;
   height: 90%;
 }
@@ -25,7 +25,7 @@
   display: block;
   margin: 0;
   padding: 0;
-  max-width: 100%;
+  max-width: 190px;
   height: auto;
 }
 
@@ -77,13 +77,13 @@ a.expand {
   EFFECT 1 - SLIDE IN BOTTOM
 ============================================================ */
 #effect-1 {
-  height: 100%;
+  height: 210px;
 }
 #effect-1 .overlay {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 190px;
   height: 0;
 }
 #effect-1 .overlay a.expand {
