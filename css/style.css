@@ -2985,7 +2985,7 @@ section.signup form input[type=submit]:hover {
     cursor: pointer
 }
 section#faq {
-    position: relative
+    position: relative;
 }
 section#faq:after {
     content: "";
@@ -3322,38 +3322,6 @@ header {
     }
 }
 
-.navbar {
-    min-height: 53px;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
-
-.navbar-inverse {
-    background-color: #3196FF;
-}
-
-.navbar {
-    margin-bottom: 5px;
-    border: none;
-    border-radius: 0;
-}
-
-.nav{
-    width: 100%;
-}
-.navbar-left > li {
-    width: 25%;
-    text-align: center;
-    color: #fff;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #fff;
-}
-
-.active {
-    width: 30%;
-}
 .block {
     margin-top: 2%;
     position: relative;
@@ -3379,6 +3347,7 @@ header {
 .col-md-4 {
     height: 100%;
 }
+
 .jumbotron {
     background-color: #FFF;
     padding-top: 20px;
