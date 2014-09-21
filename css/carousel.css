@@ -1,0 +1,14 @@
+.glyphicon-chevron-right{
+    color: #FFF;
+}
+.glyphicon-chevron-left{
+    color: #FFF;
+}
+
+.carousel-control.right {
+    background-color: transparent;
+}
+.carousel-control.left {
+    background-color: transparent;
+    color: #FFF;
+}
