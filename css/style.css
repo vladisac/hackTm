@@ -3392,3 +3392,24 @@ section#social h1{
         font-size: 25px;
         padding: 10px 0 5px 0;
 }
+ul.bullet {
+ list-style-type: disc;
+ list-style-position: inside;
+ list-style-image: none;
+}
+
+section#schedule-heading {
+    width: 100%;
+    background: black;
+    color: white
+}
+section#schedule-heading:after {
+    content: "";
+    display: table;
+    clear: both
+}
+section#schedule-heading h1 {
+    text-align: center;
+    font-size: 36px;
+    padding: 60px 0 20px 0
+}
