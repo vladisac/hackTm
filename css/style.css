@@ -2984,6 +2984,19 @@ section.signup form input[type=submit]:hover {
     color: black;
     cursor: pointer
 }
+
+section.thankyou {
+    height: 100%;
+}
+section.thankyou p {
+    padding: 6px 6px 0px 6px;
+    background: none;
+    border: none;
+    min-width: 250px;
+    border-radius: 4px;
+    font-weight: 500
+}
+
 section#faq {
     position: relative
 }
@@ -3132,6 +3145,9 @@ footer {
 footer h2,
 footer section.signup {
     margin: 20px 0
+}
+footer section.thankyou {
+    padding: 150px 0;
 }
 @-webkit-keyframes moveMessageDown {
     0%, 60%, 75%, 90%, 100% {
@@ -3382,4 +3398,28 @@ header {
 .jumbotron {
     background-color: #FFF;
     padding-top: 20px;
+}
+
+body.thankyou {
+    height: 100%;
+    background: white;
+    color: black;
+}
+section#confirmation h1 {
+    text-align: center;
+    font-size: 36px;
+    background: black;
+    color: white;
+    padding: 10px 0 10px 0
+}
+section#confirmation h2 {
+    text-align: center;
+    font-size: 24px;
+    background: black;
+    color: white;
+    padding: 10px 0 10px 0
+}
+section#social h1{
+        font-size: 25px;
+        padding: 10px 0 5px 0;
 }
