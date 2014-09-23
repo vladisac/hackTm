@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
 
@@ -154,7 +154,7 @@
         <h1>Schedule</h1>
         <table class="table">
           <thead>
-            <tr class="active">
+            <tr class="active" id="daysOfWeek">
               <th>Friday</th>
               <th>Saturday</th>
               <th>Sunday</th>
@@ -168,8 +168,8 @@
             </tr>
             <tr>
               <td>-</td>
-              <td>10:00 1st code push</td>
-              <td>10:00 CheckPoint</td>
+              <td>10:00 1st Code Push</td>
+              <td>10:00 Check Point</td>
             </tr>
             <tr>
               <td>17:00 Registration</td>
@@ -178,8 +178,8 @@
             </tr>
             <tr>
               <td>18:00 Opening</td>
-              <td>14:00 CheckPoint</td>
-              <td>16:00 Final Code push</td>
+              <td>14:00 Check Point</td>
+              <td>16:00 Final Code Push</td>
             </tr>
             <tr>
               <td>18:45 Pitching</td>
@@ -187,14 +187,14 @@
               <td>18:00 Demo</td>
             </tr>
             <tr>
-              <td>20:00 Team forming</td>
-              <td>20:00 CheckPoint</td>
+              <td>20:00 Team Forming</td>
+              <td>20:00 Check Point</td>
               <td>20:00 Awards & Closing</td>
             </tr>
             <tr>
               <td>21:00 Working</td>
-              <td>20:00 CheckPoint</td>
-              <td>21:00 Empty beer barels</td>
+              <td>21:00 Working</td>
+              <td>21:00 Empty Beer Barels</td>
             </tr>
           </tbody>
     </table>
@@ -204,7 +204,7 @@
         <h1>Location</h1>
 
         <span class="rule-title">CRAFT, Timișoara, Bulevardul Eroilor de la Tisa, nr. 22</span>
-                <p>Centrul Regional de Afacerti Timisoara este complex mulifunctional unde se pune accent pe evenimente dedicate formarii profesiole. Centrul Regional de Afaceri Timisoara este complex mulifunctional unde se pune accent pe evenimente dedicate formarii profesiole.</p>
+                <p id="locationParagraph">Centrul Regional de Afaceri Timisoara este complex multifunctional unde se pune accent pe evenimente dedicate formarii profesionale.</p>
 
         <div class="google-maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1392.1366732505066!2d21.239835330028235!3d45.7456657188388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455d8efaca1a5f%3A0xf725839b70f3d129!2sCentrul+Regional+de+Afaceri+Timi%C5%9Foara!5e0!3m2!1sen!2sro!4v1411426703978" width="1200" height="315" frameborder="0" style="border:0"></iframe>
@@ -274,7 +274,7 @@
 
     <section id="rules" class="block">
         <h1>Rules</h1>
-        <ol>
+        <ol id="rulesOl">
             <li>
                 <span class="rule-title">1. Fresh Code</span>
                 <p>We all start coding at the same time. This is done to keep
@@ -289,7 +289,7 @@
             <li>
                 <span class="rule-title">3. Ownership and IP</span>
                 <p>Teams have full ownership of everything they build at our
-                events and are free to do with it as they wish</p>
+                events and are free to do with it as they wish.</p>
             </li>
             <li>
                 <span class="rule-title">4. Team Size</span>
