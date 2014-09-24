@@ -3994,6 +3994,11 @@ section#schedule-heading {
 #avaelgo {
 }
 
+#twilio img {
+    height: 90%;
+    margin-top: 8px;
+}
+
 #meetupNet {
     width: 28%;
     margin-left: -53px;
