@@ -3880,12 +3880,16 @@ header {
 }
 
 .partners {
-    height: 180px;
+    height: 100px;
     text-align: justify;
     padding-right: 10px;
 }
 .partners .col-md-6 > p {
     width: 97%;
+}
+
+.partners-block > h1 {
+    margin-bottom: 20px;
 }
 
 .col-md-4 {
