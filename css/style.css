@@ -3879,6 +3879,15 @@ header {
     height: 220px;
 }
 
+.partners {
+    height: 180px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.partners .col-md-6 > p {
+    width: 97%;
+}
+
 .col-md-4 {
     height: 100%;
 }
