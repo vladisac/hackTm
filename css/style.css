@@ -3876,6 +3876,7 @@ header {
 }
 
 .row {
+    margin-bottom: 20px;
     height: 220px;
 }
 
