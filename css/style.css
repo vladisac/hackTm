@@ -4048,3 +4048,21 @@ section#schedule-heading {
 .col-md-4 p {
     line-height: 20px;
 }
+
+section.signup div.button {
+    background-color: #B20F1C;
+    font-size: 28px;
+    padding: 20px 40px;
+}
+
+section.signup div.button:hover {
+    background-color: #FF2340;
+}
+
+section.signup div.button a, section.signup div.button a:visited {
+    color: #FFFFFF;
+}
+
+section.signup div.button a:hover {
+    text-decoration: none;
+}
