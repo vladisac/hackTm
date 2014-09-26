@@ -4066,3 +4066,23 @@ section.signup div.button a, section.signup div.button a:visited {
 section.signup div.button a:hover {
     text-decoration: none;
 }
+
+#carousel .glyphicon {
+     display:none;
+}
+
+@media screen and (max-width: 767px) {
+	.navbar .in  ul
+	{
+		background-color: rgb(49,150, 255);
+	}
+
+	.navbar .in li a
+	{
+	}
+	
+	.navbar-left > li 
+	{
+		width: 100%;
+	}
+}

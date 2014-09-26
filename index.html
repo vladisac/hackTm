@@ -106,16 +106,24 @@
 			<a class="button" target="_blank" href="/info/hacktm-sponsorship.pdf">Sponsor Us</a>
 		</header>
 
-<nav class="navbar navbar-inverse navbar-embossed menu" role="navigation">
-    <div class="collapse navbar-collapse" id="navbar-collapse-01">
-      <ul class="nav navbar-nav navbar-left">
-        <li class="menu-item active-li"><a href="/">Home</a></li>
-        <li class="menu-item"><a href="event.html">Event</a></li>
-        <li class="menu-item"><a href="about.html">About</a></li>
-        <li class="menu-item"><a href="http://medium.com/@HackTM2014">Blog</a></li>
-      </ul>
-    </div>
-</nav>
+<div role="navigation" class="navbar navbar-default navbar-fixed-top navbar-inverse navbar-embossed menu" role="navigation">
+        <div class="navbar-header">
+          <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" style="height: 1px;">
+          <ul class="nav navbar-nav navbar-left">
+            <li class="menu-item active-li"><a href="/">Home</a></li>
+			<li class="menu-item"><a href="event.html">Event</a></li>
+			<li class="menu-item"><a href="about.html">About</a></li>
+			<li class="menu-item"><a href="http://medium.com/@HackTM2014">Blog</a></li>
+          </ul>
+        </div>
+</div>
 
 <section id="faq">
 	<section id="numbers">
@@ -315,7 +323,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 		<script src="scripts/app.js"></script>
 		<script src="scripts/stickyMenu.js"></script>
-
+		<script src="scripts/bootstrap.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
