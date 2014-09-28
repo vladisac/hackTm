@@ -3884,9 +3884,10 @@ header {
     text-align: justify;
     padding-right: 10px;
 }
-.partners .col-md-6 > p {
-    width: 97%;
-}
+
+    .partners .col-md-6 > p {
+        width: 97%;
+    }
 
 .partners-block > h1 {
     margin-bottom: 25px;
@@ -4055,34 +4056,63 @@ section.signup div.button {
     padding: 20px 40px;
 }
 
-section.signup div.button:hover {
-    background-color: #FF2340;
-}
+    section.signup div.button:hover {
+        background-color: #FF2340;
+    }
 
-section.signup div.button a, section.signup div.button a:visited {
-    color: #FFFFFF;
-}
+    section.signup div.button a, section.signup div.button a:visited {
+        color: #FFFFFF;
+    }
 
-section.signup div.button a:hover {
-    text-decoration: none;
-}
+        section.signup div.button a:hover {
+            text-decoration: none;
+        }
 
 #carousel .glyphicon {
-     display:none;
+    display: none;
 }
 
-@media screen and (max-width: 767px) {
-	.navbar .in  ul
-	{
-		background-color: rgb(49,150, 255);
-	}
+.menu-item > a {
+    font-weight: 700;
+    color: #b8d9ea !important;
+}
 
-	.navbar .in li a
-	{
-	}
-	
-	.navbar-left > li 
-	{
-		width: 100%;
-	}
+
+.menu-item:hover > a {
+    color: white !important;
+    border-top-color: #fff;
+}
+
+/*.menu-item > a:hover {
+    color: red !important;
+    border-top-color: #fff;
+}*/
+
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar .in ul {
+        background-color: rgb(49,150, 255);
+    }
+
+    .navbar .in li a {
+    }
+
+    .navbar-left > li {
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    .menu-item {
+        border-bottom: 2px solid white;
+    }
+
+    /*.active-li {
+        width: 30%;
+        height: 100%;
+        border: 1px solid red;
+    }*/
 }

@@ -48,6 +48,7 @@
 
 .active-li {
     width: 30%;
+    height: 100%;
 }
 
 #navbar-collapse-01 {
@@ -57,7 +58,6 @@
 
 .navbar-inverse .navbar-nav > .active-li > a, .navbar-inverse .navbar-nav > .active -li> a:hover, .navbar-inverse .navbar-nav > .active-li > a:focus{
     height: 100%;
-    background-color: rgba(29, 107, 139, 0.73);
     font-size: 24px;
 }
 
