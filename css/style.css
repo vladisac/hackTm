@@ -3711,8 +3711,7 @@ section#sponsor-logos {
 
 .sponsors a {
     height: 3rem;
-    float: left;
-    display: inline-block;
+    float: left !important;
     padding: 1rem 0;
 }
 
@@ -3969,6 +3968,10 @@ section#schedule-heading {
         height: 100% !important;
     }
 
+.sponsors br {
+    clear: both;
+}
+
 #google img {
     height: 70%;
 }
@@ -3980,7 +3983,6 @@ section#schedule-heading {
 
 
 #autoliv {
-    clear: left;
 }
 
     #autoliv img {
@@ -4012,6 +4014,14 @@ section#schedule-heading {
 
 #avaelgo {
 }
+
+#microsoft {
+    float: left;
+}
+
+    #microsoft img {
+        height: 100%;
+    }
 
 #twilio img {
     height: 80%;
