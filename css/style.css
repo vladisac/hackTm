@@ -3335,7 +3335,7 @@ header {
         -webkit-transform: translateZ(0);
         -moz-transform: translateZ(0);
         transform: translateZ(0);
-        padding: 40px 0;
+        padding: 20px 0;
     }
 
         header section#description h2 {
@@ -3978,9 +3978,14 @@ section#schedule-heading {
     margin-top: 14px;
 }
 
-#autoliv img {
-    height: 75%;
+
+#autoliv {
+    clear: left;
 }
+
+    #autoliv img {
+        height: 75%;
+    }
 
 #casaAutomata img {
     margin-top: 1px;
@@ -4009,14 +4014,14 @@ section#schedule-heading {
 }
 
 #twilio img {
-    height: 90%;
+    height: 80%;
     margin-top: 8px;
 }
 
 #meetupNet {
     width: 28%;
-    margin-left: -53px;
-    margin-top: 10px;
+    margin-left: -70px;
+    margin-top: 33px;
 }
 
 #locationParagraph {
@@ -4090,6 +4095,38 @@ section.signup div.button {
     height: inherit;
 }
 
+.org-logos a {
+    float: left;
+    padding: 0 25px;
+}
+
+.social_container {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.social {
+    float: left;
+}
+
+    .social img {
+        height: 32px;
+        width: 32px;
+    }
+
+#facebook {
+}
+
+#twitter {
+    margin-left: 20px;
+}
+
+#contact {
+    color: gray;
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 767px) {
     .navbar-nav {
         margin: 0;
@@ -4121,6 +4158,11 @@ section.signup div.button {
     .sponsors a {
         float: left;
         clear: both;
+        margin-left: 25%;
+    }
+
+    #google {
+        margin-left: 0;
     }
 
     .navbar-collapse.in {
@@ -4131,7 +4173,16 @@ section.signup div.button {
         padding: 15px;
     }
 
+    #twilio img {
+        height: 60%;
+    }
+
+    #atigeo img {
+        height: 50%;
+    }
+
     #meetupNet {
         width: 100%;
+        margin-left: 10px;
     }
 }
