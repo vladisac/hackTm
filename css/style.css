@@ -3739,7 +3739,7 @@ section#sponsor-logos {
 }
 
     .sponsors .giga a {
-        height: 15rem;
+        height: 12rem;
         width: 100%;
     }
 
@@ -3972,6 +3972,15 @@ section#schedule-heading {
     clear: both;
 }
 
+#digital-education img {
+    max-height: 85%;
+}
+
+#google {
+    margin-top: 20px;
+}
+
+
 #google img {
     height: 70%;
 }
@@ -4171,8 +4180,13 @@ section.signup div.button {
         margin-left: 25%;
     }
 
+    .sponsors .giga a {
+        margin-left: 0;
+    }
+
     #google {
         margin-left: 0;
+        margin-top: 0;
     }
 
     .navbar-collapse.in {
