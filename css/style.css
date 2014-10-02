@@ -3842,6 +3842,11 @@ header {
     #wiki {
         display: none;
     }
+
+    .block {
+    	width: 90% !important;
+    	margin-left: 5% !important;
+    }
 }
 
 .block {
@@ -3852,16 +3857,14 @@ header {
     margin-bottom: 10px;
 }
 
-    .block > h1 {
-        font-size: 25px;
-        margin-bottom: 15px;
-    }
+.block > h1 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
 
-    .block h3 {
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-
+.block h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
 }
 
 #rules > ol > li {

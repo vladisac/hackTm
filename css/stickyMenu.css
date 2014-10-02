@@ -46,7 +46,6 @@
 
 .navbar {
     left: 20%;
-    ;
     color: #fff;
     min-height: 53px;
     margin-bottom: 30px;
@@ -101,4 +100,11 @@
     visibility: hidden;
     z-index: 500;
     position: fixed;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar {
+    	width: 90% !important;
+    	left: 5% !important;
+    }
 }
