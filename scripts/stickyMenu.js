@@ -1,3 +1,4 @@
+
 // Create a clone of the menu, right next to original.
 $('.menu').addClass('original').clone().insertAfter('.menu').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','500').removeClass('original').hide();
 
