@@ -3772,7 +3772,7 @@ section#organizers-logos {
 
 .organizers a {
     height: 8rem;
-    float: left;
+    /*float: left;*/
     display: inline-block;
     padding: 1rem 0;
 }
@@ -3795,6 +3795,7 @@ section#organizers-logos {
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
     width: 100%;
+    text-align:center;
 }
 
 header {
@@ -4116,7 +4117,7 @@ section.signup div.button {
 }
 
 .org-logos a {
-    float: left;
+    /*float: left;*/
     padding: 0 25px;
 }
 
@@ -4148,8 +4149,9 @@ section.signup div.button {
 }
 
 #mainOrganizers {
-    width: 480px;
-    margin: 0 auto;
+    /*width: 480px;
+    margin: 0 auto;*/
+    text-align: center;
     display: inherit !important;
     border: none !important;
 }

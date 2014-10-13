@@ -14,6 +14,7 @@ function stickIt()
   {
     // scrolled past the original position; now only show the cloned, sticky element.
     orgElement = $('.original');
+
     coordsOrgElement = orgElement.offset();
     leftOrgElement = coordsOrgElement.left;
     widthOrgElement = '55%';

@@ -109,3 +109,15 @@ a.expand {
     padding-left: 3px;
     font-size: 14px;
 }
+
+.partners .image img {
+	max-width: 100%;
+}
+
+.company h4 {
+	font-weight: bold;
+}
+
+.company {
+	margin-top: 20px;
+}
