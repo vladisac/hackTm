@@ -3795,7 +3795,7 @@ section#organizers-logos {
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
     width: 100%;
-    text-align:center;
+    text-align: center;
 }
 
 header {
@@ -4040,6 +4040,19 @@ section#schedule-heading {
     margin-top: 8px;
 }
 
+#safefleet img {
+    height: 70%;
+}
+
+#hackatimis {
+    width: 60%;
+    margin-left: -168px;
+}
+
+#ronua {
+    margin-left: -148px;
+}
+
 #meetupNet {
     width: 28%;
     margin-top: 33px;
@@ -4222,5 +4235,18 @@ section.signup div.button {
     #meetupNet {
         width: 100%;
         margin-left: 10px;
+    }
+
+    #safefleet img {
+        height: 100%;
+    }
+
+    #hackatimis img {
+        width: 100% !important;
+        margin-left: 6px;
+    }
+
+    #ronua {
+        margin-left: 2px !important;
     }
 }
