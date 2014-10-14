@@ -4161,12 +4161,16 @@ section.signup div.button {
     padding-bottom: 10px;
 }
 
-#mainOrganizers {
+.Organizers {
     /*width: 480px;
     margin: 0 auto;*/
     text-align: center;
     display: inherit !important;
     border: none !important;
+}
+
+#softbinator {
+    margin-left: -50px;
 }
 
 .mainOrganizer {
