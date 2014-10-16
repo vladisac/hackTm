@@ -173,4 +173,12 @@ a.expand {
     bottom: 10px;
     left: 5px;
 }
+
+.about-tab {
+    padding: 30px 20px 10px 20px;
+}
+
+.tab-link {
+    border-radius: 0px !important;
+}
 /*end mentors area*/
