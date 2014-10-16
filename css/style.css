@@ -3772,7 +3772,7 @@ section#organizers-logos {
 
 .organizers a {
     height: 8rem;
-    float: left;
+    /*float: left;*/
     display: inline-block;
     padding: 1rem 0;
 }
@@ -3795,6 +3795,7 @@ section#organizers-logos {
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
     width: 100%;
+    text-align: center;
 }
 
 header {
@@ -4039,6 +4040,19 @@ section#schedule-heading {
     margin-top: 8px;
 }
 
+#safefleet img {
+    height: 70%;
+}
+
+#hackatimis {
+    width: 60%;
+    margin-left: -168px;
+}
+
+#ronua {
+    margin-left: -115px;
+}
+
 #meetupNet {
     width: 28%;
     margin-top: 33px;
@@ -4116,7 +4130,7 @@ section.signup div.button {
 }
 
 .org-logos a {
-    float: left;
+    /*float: left;*/
     padding: 0 25px;
 }
 
@@ -4147,11 +4161,16 @@ section.signup div.button {
     padding-bottom: 10px;
 }
 
-#mainOrganizers {
-    width: 480px;
-    margin: 0 auto;
+.Organizers {
+    /*width: 480px;
+    margin: 0 auto;*/
+    text-align: center;
     display: inherit !important;
     border: none !important;
+}
+
+#softbinator {
+    margin-left: -50px;
 }
 
 .mainOrganizer {
@@ -4220,5 +4239,18 @@ section.signup div.button {
     #meetupNet {
         width: 100%;
         margin-left: 10px;
+    }
+
+    #safefleet img {
+        height: 100%;
+    }
+
+    #hackatimis img {
+        width: 100% !important;
+        margin-left: 6px;
+    }
+
+    #ronua {
+        margin-left: 2px !important;
     }
 }
